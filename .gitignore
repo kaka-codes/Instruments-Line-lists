@@ -1,0 +1,8 @@
+.cache/
+.easyocr_models/
+.streamlit/secrets.toml
+models/
+outputs/
+__pycache__/
+*.pyc
+.env
