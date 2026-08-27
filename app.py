@@ -11,7 +11,7 @@ from smart_pid.ui import render_app
 
 
 st.set_page_config(
-    page_title="Smart P&ID",
+    page_title="Instruments & Lines Lists",
     page_icon=":material/account_tree:",
     layout="wide",
     initial_sidebar_state="expanded",
