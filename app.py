@@ -19,7 +19,7 @@ st.set_page_config(
 
 
 def main() -> None:
-    st.title("Smart P&ID")
+    st.title("Instruments & Lines Lists")
     st.caption("Instrument detection, tag extraction, and regex-based line-list extraction from P&ID PDFs.")
 
     try:
