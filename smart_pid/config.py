@@ -47,7 +47,7 @@ class AppConfig:
         return cls(
             cache_dir=Path(str(_secret("PID_CACHE_DIR", ".cache/pid_app"))),
             yolo_model_path=model_path,
-            zoom=int(_secret("PID_ZOOM", 8)),
+            zoom=int(_secret("PID_ZOOM", 4)),
             grid=int(_secret("PID_GRID", 4)),
             overlap=float(_secret("PID_OVERLAP", 0.0)),
             yolo_imgsz=int(_secret("YOLO_IMGSZ", 1280)),
